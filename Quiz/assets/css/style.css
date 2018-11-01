@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+.container .wrapper{
+	width: 80%;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	display: flex;
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+
+.container h1{
+	text-align: center;
+	margin-bottom: 80px;
+}
+/* Login Form */
+.container .wrapper .login-box{
+	border: 1px solid #ccc;
+	width: 50%;
+	height: 340px;
+}
+
+.container .wrapper .form-control{
+	display: grid;
+	margin-top: 10%;
+}
+
+.container .wrapper .form-control input[type=text], .container .wrapper .form-control input[type=password]{
+	height: 40px;
+	margin-bottom: 18px;
+
+}
+
+.container .wrapper .form-control input.btn_secondary{
+
+	height: 40px;
+	width: 100px;
+	background: green;
+	color: #fff;
+	border: none;
+	margin:0 auto;
+}
+
+.container .wrapper .form-control input.btn_secondary:hover{
+	cursor: pointer;
+	transition: .3s ease;
+	background: #444;
+	color: #fff;
+}
+
+.container .wrapper .login-header{
+	border: 1px solid gray;
+	background: lightgray;
+	color: #000;
+    text-align: center;
+    height: 42px;
+}
+
+/* Register Form */
+
+.container .wrapper .register-box{
+	border: 1px solid #ccc;
+	width: 50%;
+	height: 340px;
+	/*float: right;*/
+
+}
+
+.container .wrapper .form-control{
+	display: grid;
+	margin-top: 10%;
+}
+
+.container .wrapper .form-control input[type=text], .container .wrapper .form-control input[type=password]{
+	height: 40px;
+	margin-bottom: 18px;
+
+}
+
+.container .wrapper .form-control input.btn_secondary{
+
+	height: 40px;
+	width: 100px;
+	background: green;
+	color: #fff;
+	border: none;
+	margin:0 auto;
+}
+
+.container .wrapper .form-control input.btn_secondary:hover{
+	cursor: pointer;
+	transition: .3s ease;
+	background: #444;
+	color: #fff;
+}
+
+.container .wrapper .register-header{
+	border: 1px solid gray;
+	background: lightgray;
+	color: #000;
+    text-align: center;
+    height: 42px;
+}
+
+.color{
+	color: red;
+}
